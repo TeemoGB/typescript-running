@@ -1,6 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import ClassCom from "./ClassCom";
+import FuncCom from "./FuncCom";
+import Todolist from "./Todolist";
+import MapTest from "./MapTest";
+import Timer from "./Timer";
 
 function App() {
   let name = "리액트";
@@ -19,6 +23,15 @@ function App() {
       {/* 주석 */}
       <br />
       <input />
+
+      <Timer></Timer>
+
+      <MapTest></MapTest>
+
+      <ClassCom></ClassCom>
+      <FuncCom></FuncCom>
+
+      <Todolist></Todolist>
     </div>
   );
 }
