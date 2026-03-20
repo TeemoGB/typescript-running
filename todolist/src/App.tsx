@@ -5,6 +5,7 @@ import FuncCom from "./FuncCom";
 import Todolist from "./Todolist";
 import MapTest from "./MapTest";
 import Timer from "./Timer";
+import MyWeather from "./MyWeather";
 
 function App() {
   let name = "리액트";
@@ -18,9 +19,8 @@ function App() {
 
   return (
     <div style={style}>
-      <h1 className="title">Hello, {name === "리액트" ? "YES" : "NO"}!</h1>
+       {/* <h1 className="title">Hello, {name === "리액트" ? "YES" : "NO"}!</h1>
       <p>반갑습니다.</p>
-      {/* 주석 */}
       <br />
       <input />
 
@@ -29,7 +29,9 @@ function App() {
       <MapTest></MapTest>
 
       <ClassCom></ClassCom>
-      <FuncCom></FuncCom>
+      <FuncCom></FuncCom> */}
+
+      <MyWeather weather="맑음">일기예보</MyWeather>
 
       <Todolist></Todolist>
     </div>
